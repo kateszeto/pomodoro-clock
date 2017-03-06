@@ -1,0 +1,76 @@
+body{
+  font: 18px 'Ubuntu Condensed', sans-serif;
+  padding: 20px;
+  background: #d3e2d4;
+  background: linear-gradient(135deg, #d3e2d4,#819083) top left fixed;
+}
+
+.pomo{
+  width:282px;
+  margin: auto;
+  border:1px solid #ffe2dd;
+  border-radius: 5px;
+  color: #D43023;
+  background-color:#FFF5EE;
+  padding: 0 0 30px 0;
+}
+#pomo_canvas{
+  background-color: #FF6347;
+/*  background-color: #ffc6bc;*/
+  width: 280px;
+  height: 280px;
+  border: 1px solid #FF6347;
+}
+h2{
+  text-align: center;
+}
+.control{
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+}
+
+.btn-toolbar {
+    display: inline-block;
+}
+
+.btn.outline {
+	background: none;
+  border: none; 
+}
+
+.btn-primary.outline {
+ 	color: #D43023;
+  font-size: 40px;
+}
+
+.btn-primary.outline:hover{
+	color: #FF6347;
+
+}
+
+.btn-primary.outline:active, .btn-primary.outline.active {
+	color: #FF6347;
+	box-shadow: none;
+  background: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: 0 none;
+}
+#stop{
+  margin-left: 40px;
+}
+.session {
+  height:30px;
+  margin: 8px 0 5px 4px;
+ 
+}
+
+.plus:hover,.minus:hover{
+  color:  #FF6347;
+  cursor: pointer;
+}
+
+
+

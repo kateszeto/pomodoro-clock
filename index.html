@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="pomo">
+  <h2>Pomodoro</h2>
+<canvas id="pomo_canvas" width="280" height="280" style="font:48px 'FontAwesome'"></canvas>
+  <div class="control">
+<div class="btn-toolbar">
+  <button type="button" class="btn btn-primary outline" id="playpause">
+  <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+  </button>
+  <button type="button" class="btn btn-primary outline" id="stop">
+  <i class="fa fa-stop-circle-o" aria-hidden="true"></i>
+  </button>
+</div>
+  </div>
+  <div class="container-fluid">
+    <div class="row session">
+      <div class="col-sm-6"><span><i class="fa fa-book" aria-hidden="true"></i>&Tab;Pomodoro</span></div>
+      <div class="col-sm-1 minus"><i class="fa fa-backward" aria-hidden="true"></i></div>
+	  <div class="col-sm-1 number" id="pomomin">25</div>
+	  <div class="col-sm-1 plus"><i class="fa fa-forward" aria-hidden="true"></i></div>
+  </div>
+	  <div class="row session">
+      <div class="col-sm-6"><span><i class="fa fa-coffee" aria-hidden="true"></i>&Tab;Break</span></div>
+      <div class="col-sm-1 minus"><i class="fa fa-backward" aria-hidden="true"></i></div>
+	  <div class="col-sm-1 number" id="breakmin">5</div>
+	  <div class="col-sm-1 plus"><i class="fa fa-forward" aria-hidden="true"></i></div>
+  </div>
+
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
